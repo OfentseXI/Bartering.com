@@ -6,12 +6,12 @@ import { getFirestore, doc, setDoc } from "firebase/firestore";
 config();
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
+  apiKey: "AIzaSyDEEAA-lfO21vSJFx4GKuubgxA4lijtit8",
+  authDomain: "barter-next.firebaseapp.com",
+  projectId: "barter-next",
+  storageBucket: "barter-next.firebasestorage.app",
+  messagingSenderId: "112300036798",
+  appId: "1:112300036798:web:156a9487d64b156372c4ef"
 };
 
 // Initialize Firebase
